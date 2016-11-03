@@ -2,6 +2,8 @@
 
 For this kata we will be converting Arabic numerals (1, 3, 22, etc) to Roman numerals (I, III, XXII, etc.). We will use this kata to practice our TDD skills. If you are unfamiliar with Roman numerals, you can review them [here](http://www.rapidtables.com/convert/number/roman-numerals-converter.htm).
 
+Before we start, take a moment to think about how you might implement this algorithm without TDD. What kinds of programming constructs (looping, checks, classes, etc.) might you use? What kind of edge cases would you have to consider?
+
 ## Test 1
 The first test we choose in TDD can be very important. In converting Roman numerals we have a couple of possible options. We could start with 1. We could start with 5. For this kata let's start with 0. 0 is actually not defined for Roman numerals, so let's define it as an empty string.
 
@@ -60,3 +62,8 @@ For all the non-subtractive cases you should now be at the point where it's just
 Write the following test and make it pass: `4 returns IV`
 
 Remember to do the simplest possible thing that will make the test pass.
+
+## Finishing up
+If you found a way to add the relationship between 4 and IV to your mapping, now all the remaining rules should just be a matter adding cases to your mapping. Try converting a large number like 3978 to see if all your mappings work.
+
+Did using TDD to do this exercise result in a different solution that you were initially thinking about? If so, which solution did you like better?
