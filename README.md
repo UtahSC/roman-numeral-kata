@@ -4,6 +4,9 @@ For this kata we will be converting Arabic numerals (1, 3, 22, etc) to Roman num
 
 Before we start, take a moment to think about how you might implement this algorithm without TDD. What kinds of programming constructs (looping, checks, classes, etc.) might you use? What kind of edge cases would you have to consider?
 
+## Test 0
+Before we start implementing anything, create a blank test that does nothing. Make sure you can run that test and that it passes.
+
 ## Test 1
 The first test we choose in TDD can be very important. In converting Roman numerals we have a couple of possible options. We could start with 1. We could start with 5. For this kata let's start with 0. 0 is actually not defined for Roman numerals, so let's define it as an empty string.
 
