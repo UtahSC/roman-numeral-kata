@@ -41,3 +41,22 @@ With our duplication removed, let's see what happens if we continue down this pa
 Write the following test and make it pass: `3 returns III`
 
 Remember to see if your newly written test fails before adding code to make it pass. Does this one fail?
+
+## Test 7
+We some iteration going with the previous test. Let's try adding some more.
+
+Write the following test and make it pass: `20 returns XX`
+
+## Test 8
+Let's refactor again. You may have some duplication between the two areas of iteration. Remove that duplication.This will likely be a larger refactor than previous ones. If it is, try doing more than one refactor, where each refactor changes the shape of your code as little as possible.
+
+We mentioned back on Test 5 that we will likely have a mapping between Arabic and Roman Numerals. Now is the time to make that mapping explicit in order to remove duplication.
+
+Write the following test and make it pass: `50 returns L`
+
+## Test 9
+For all the non-subtractive cases you should now be at the point where it's just a matter of adding additional values to your mapping. But what about those pesky subtraction cases? (e.g. `4 returns IV`) We could complicate our algorithm to capture the rules about which values can be subtracted from which other values. But could there be an easier way?
+
+Write the following test and make it pass: `4 returns IV`
+
+Remember to do the simplest possible thing that will make the test pass.
