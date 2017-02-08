@@ -48,7 +48,7 @@ Write the following test and make it pass: `3 returns III`
 Remember to see if your newly written test fails before adding code to make it pass. Does this one fail?
 
 ## Test 7
-We some iteration going with the previous test. Let's try adding some more.
+We got some iteration going with the previous test. Let's try adding some more.
 
 Write the following test and make it pass: `20 returns XX`
 
