@@ -32,7 +32,7 @@ With that done, make sure all your tests still pass. If they do, let's continue 
 Write the following test and make it pass: `10 returns X`
 
 ## Test 5
-For our next test we could add another easy case (like L or C), but that wouldn't move our algorithm forward very much. At this point we can see that we will having some mappings between Arabic and Roman numerals. Let's start flushing out our duplicate numeral logic instead.
+For our next test we could add another easy case (like L or C), but that wouldn't move our algorithm forward very much. At this point we can see that we will have some mappings between Arabic and Roman numerals. Let's start flushing out our duplicate numeral logic instead.
 
 Write the following test and make it pass: `2 returns II`
 
