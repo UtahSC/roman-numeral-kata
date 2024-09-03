@@ -53,7 +53,7 @@ We got some iteration going with the previous test. Let's try adding some more.
 Write the following test and make it pass: `20 returns XX`
 
 ## Test 8
-Let's refactor again. You may have some duplication between the two areas of iteration. Remove that duplication.This will likely be a larger refactor than previous ones. If it is, try doing more than one refactor, where each refactor changes the shape of your code as little as possible.
+Let's refactor again. You may have some duplication between the two areas of iteration. Remove that duplication. This will likely be a larger refactor than previous ones. If it is, try doing more than one refactor, where each refactor changes the shape of your code as little as possible.
 
 We mentioned back on Test 5 that we will likely have a mapping between Arabic and Roman Numerals. Now is the time to make that mapping explicit in order to remove duplication.
 
